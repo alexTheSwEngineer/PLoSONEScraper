@@ -68,7 +68,7 @@ public class Program {
 
     private  static BatchJob<Paper, Property,PrintStream> createPringJob(BatchSettings<Paper,Property> settings, Function<Property,String> propertyDisplay,String delimiter, String lineEnd) throws Exception {
         return settings.<PrintStream>createJob()
-                       .afterEach((p,out)->out.print(lineEnd))
+                       .afterLast((p,out)->out.print(lineEnd))
                        .betweenEach((l,r,out)->out.print(delimiter))
                        .applyOnEach((prop,out)->out.print(propertyDisplay.apply(prop)));
     }

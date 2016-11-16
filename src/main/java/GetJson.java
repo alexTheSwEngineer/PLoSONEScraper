@@ -45,7 +45,7 @@ class GetJson<T> implements IGetJson<T> {
                 sb.append(line);
             }
             return sb.toString();
-        });        
+        });
         T result =   ConvertFromJson(responseContent);
         return  result;
 
