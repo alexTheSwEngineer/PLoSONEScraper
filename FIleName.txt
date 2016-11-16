@@ -1,19 +1,19 @@
-Id;Title;Authors;Date;Article type;Link;Journal key;Total count
-Title:null     :     Authors:Jeffrey Chu,Saralees Nadarajah,Stephen Chan
-Title:null     :     Authors:Luisanna Cocco,Michele Marchesi
-Title:null     :     Authors:Thomas Kim
-Title:null     :     Authors:Jonathan Donier,Jean-Philippe Bouchaud
-Title:null     :     Authors:Ladislav Kristoufek
-Title:null     :     Authors:The PLOS ONE Staff 
-Title:null     :     Authors:Dániel Kondor,Márton Pósfai,István Csabai,Gábor Vattay
-Title:null     :     Authors:Jesse Yli-Huumo,Deokyoon Ko,Sujin Choi,Sooyong Park,Kari Smolander
-Title:null     :     Authors:Young Bin Kim,Jun Gi Kim,Wook Kim,Jae Ho Im,Tae Hyeong Kim,Shin Jin Kang,Chang Hun Kim
-Title:null     :     Authors:Young Bin Kim,Sang Hyeok Lee,Shin Jin Kang,Myung Jin Choi,Jung Lee,Chang Hun Kim
-Title:null     :     Authors:Raphael H. Heiberger
-Title:null     :     Authors:Victor Naroditskiy,Iyad Rahwan,Manuel Cebrian,Nicholas R. Jennings
-Title:null     :     Authors:Shota Saito,Yoshito Hirata,Kazutoshi Sasahara,Hideyuki Suzuki
-Title:null     :     Authors:Xianlei Dong,Johan Bollen
-Title:null     :     Authors:Adrian Letchford,Tobias Preis,Helen Susannah Moat
-Title:null     :     Authors:Jaroslav Pavlicek,Ladislav Kristoufek
-Title:null     :     Authors:Dean Fantazzini
-Title:null     :     Authors:Ahmad Karim,Rosli Salleh,Muhammad Khurram Khan
+Id,Title,Authors,Date,Article type,Link,Journal key,Total count,Cross published journal names
+10.1371/journal.pone.0133678,Statistical Analysis of the Exchange Rate of Bitcoin,"Jeffrey Chu, Saralees Nadarajah, Stephen Chan",Wed Jul 29 02:00:00 CEST 2015,Research Article,/plosone/article?id=10.1371/journal.pone.0133678,PLoSONE,3340.0,PLOS ONE
+10.1371/journal.pone.0164603,Modeling and Simulation of the Economics of Mining in the Bitcoin Market,"Luisanna Cocco, Michele Marchesi",Fri Oct 21 02:00:00 CEST 2016,Research Article,/plosone/article?id=10.1371/journal.pone.0164603,PLoSONE,137.0,PLOS ONE
+10.1371/journal.pone.0123071,The Predecessors of Bitcoin and Their Implications for the Prospect of Virtual Currencies,Thomas Kim,Tue Apr 28 02:00:00 CEST 2015,Research Article,/plosone/article?id=10.1371/journal.pone.0123071,PLoSONE,3184.0,PLOS ONE
+10.1371/journal.pone.0139356,Why Do Markets Crash? Bitcoin Data Offers Unprecedented Insights,"Jonathan Donier, Jean-Philippe Bouchaud",Thu Oct 08 02:00:00 CEST 2015,Research Article,/plosone/article?id=10.1371/journal.pone.0139356,PLoSONE,1857.0,PLOS ONE
+10.1371/journal.pone.0123923,What Are the Main Drivers of the Bitcoin Price? Evidence from Wavelet Coherence Analysis,Ladislav Kristoufek,Wed Apr 15 02:00:00 CEST 2015,Research Article,/plosone/article?id=10.1371/journal.pone.0123923,PLoSONE,5730.0,PLOS ONE
+10.1371/journal.pone.0097205,Correction: Do the Rich Get Richer? An Empirical Analysis of the Bitcoin Transaction Network,The PLOS ONE Staff ,Fri May 02 02:00:00 CEST 2014,Correction,/plosone/article?id=10.1371/journal.pone.0097205,PLoSONE,1153.0,PLOS ONE
+10.1371/journal.pone.0086197,Do the Rich Get Richer? An Empirical Analysis of the Bitcoin Transaction Network,"Dániel Kondor, Márton Pósfai, István Csabai, Gábor Vattay",Wed Feb 05 01:00:00 CET 2014,Research Article,/plosone/article?id=10.1371/journal.pone.0086197,PLoSONE,9144.0,PLOS ONE
+10.1371/journal.pone.0163477,Where Is Current Research on Blockchain Technology?—A Systematic Review,"Jesse Yli-Huumo, Deokyoon Ko, Sujin Choi, Sooyong Park, Kari Smolander",Mon Oct 03 02:00:00 CEST 2016,Research Article,/plosone/article?id=10.1371/journal.pone.0163477,PLoSONE,3887.0,PLOS ONE
+10.1371/journal.pone.0161197,Predicting Fluctuations in Cryptocurrency Transactions Based on User Comments and Replies,"Young Bin Kim, Jun Gi Kim, Wook Kim, Jae Ho Im, Tae Hyeong Kim, Shin Jin Kang, Chang Hun Kim",Wed Aug 17 02:00:00 CEST 2016,Research Article,/plosone/article?id=10.1371/journal.pone.0161197,PLoSONE,2247.0,PLOS ONE
+10.1371/journal.pone.0132944,Virtual World Currency Value Fluctuation Prediction System Based on User Sentiment Analysis,"Young Bin Kim, Sang Hyeok Lee, Shin Jin Kang, Myung Jin Choi, Jung Lee, Chang Hun Kim",Tue Aug 04 02:00:00 CEST 2015,Research Article,/plosone/article?id=10.1371/journal.pone.0132944,PLoSONE,11538.0,PLOS ONE
+10.1371/journal.pone.0135311,Collective Attention and Stock Prices: Evidence from Google Trends Data on Standard and Poor's 100,Raphael H. Heiberger,Mon Aug 10 02:00:00 CEST 2015,Research Article,/plosone/article?id=10.1371/journal.pone.0135311,PLoSONE,2615.0,PLOS ONE
+10.1371/journal.pone.0045924,Verification in Referral-Based Crowdsourcing,"Victor Naroditskiy, Iyad Rahwan, Manuel Cebrian, Nicholas R. Jennings",Wed Oct 10 02:00:00 CEST 2012,Research Article,/plosone/article?id=10.1371/journal.pone.0045924,PLoSONE,6942.0,PLOS ONE
+10.1371/journal.pone.0139085,Tracking Time Evolution of Collective Attention Clusters in Twitter: Time Evolving Nonnegative Matrix Factorisation,"Shota Saito, Yoshito Hirata, Kazutoshi Sasahara, Hideyuki Suzuki",Tue Sep 29 02:00:00 CEST 2015,Research Article,/plosone/article?id=10.1371/journal.pone.0139085,PLoSONE,1790.0,PLOS ONE
+10.1371/journal.pone.0120039,Computational Models of Consumer Confidence from Large-Scale Online Attention Data: Crowd-Sourcing Econometrics,"Xianlei Dong, Johan Bollen",Tue Mar 31 02:00:00 CEST 2015,Research Article,/plosone/article?id=10.1371/journal.pone.0120039,PLoSONE,3131.0,PLOS ONE
+10.1371/journal.pone.0149025,Quantifying the Search Behaviour of Different Demographics Using Google Correlate,"Adrian Letchford, Tobias Preis, Helen Susannah Moat",Wed Feb 24 01:00:00 CET 2016,Research Article,/plosone/article?id=10.1371/journal.pone.0149025,PLoSONE,2127.0,PLOS ONE
+10.1371/journal.pone.0127084,Nowcasting Unemployment Rates with Google Searches: Evidence from the Visegrad Group Countries,"Jaroslav Pavlicek, Ladislav Kristoufek",Fri May 22 02:00:00 CEST 2015,Research Article,/plosone/article?id=10.1371/journal.pone.0127084,PLoSONE,2160.0,PLOS ONE
+10.1371/journal.pone.0111894,Nowcasting and Forecasting the Monthly Food Stamps Data in the US Using Online Search Data,Dean Fantazzini,Tue Nov 04 01:00:00 CET 2014,Research Article,/plosone/article?id=10.1371/journal.pone.0111894,PLoSONE,1451.0,PLOS ONE
+10.1371/journal.pone.0150077,SMARTbot: A Behavioral Analysis Framework Augmented with Machine Learning to Identify Mobile Botnet Applications,"Ahmad Karim, Rosli Salleh, Muhammad Khurram Khan",Tue Mar 15 01:00:00 CET 2016,Research Article,/plosone/article?id=10.1371/journal.pone.0150077,PLoSONE,2201.0,PLOS ONE

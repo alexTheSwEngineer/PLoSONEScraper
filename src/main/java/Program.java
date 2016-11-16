@@ -6,6 +6,7 @@ import models.Paper;
 import models.SearchResponce;
 import objectToString.Property;
 import objectToString.PropertyPrintSetting;
+import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.http.impl.client.HttpClientBuilder;
 import java.io.PrintStream;
 import java.util.List;
@@ -39,8 +40,8 @@ public class Program {
 
     public void run(String url,String fileName) throws Exception {
         final  PosSearch search = new PosSearch(this.httpGetClient, url);
-        BatchJob<Paper, Property, PrintStream> csvValues = createPringJob(fullProperties, x -> x.value, ";", "\n");
-        BatchJob<Paper, Property, PrintStream> csvHeaders = createPringJob(fullProperties, x -> x.name, ";", "\n");
+        BatchJob<Paper, Property, PrintStream> csvValues = createPringJob(fullProperties, escapeCsv(x -> x.value), ",", "\n");
+        BatchJob<Paper, Property, PrintStream> csvHeaders = createPringJob(fullProperties, escapeCsv(x -> x.name), ",", "\n");
         BatchJob<Paper, Property, PrintStream> log = createPringJob(logProperties, x -> x.name+":"+x.value, "     :     ", "\n");
         Using.Closable(() -> new PrintStream(fileName),
         ps -> {
@@ -58,8 +59,9 @@ public class Program {
 
                 for (Paper paper :
                         papers) {
-                    log.execute(paper,ps);
-                    csvValues.execute(paper,logStream);
+                    //log.execute(paper,logStream);
+                    //csvValues.execute(paper,logStream);
+                    csvValues.execute(paper,ps);
                 }
             }
        });
@@ -74,7 +76,7 @@ public class Program {
     }
     private static BatchSettings<Paper,Property> fullProperties = new PropertyPrintSetting<Paper>(x->x.getId())
             .name("Id")
-            .create(x->x.getTitle())
+            .create(x->x.getTitle_display())
             .name("Title")
             .create(", ",x->x.getAuthor_display())
             .name("Authors")
@@ -88,10 +90,16 @@ public class Program {
             .name("Journal key")
             .create(x->""+x.getCounter_total_all())
             .name("Total count")
+            .create(", ",x->x.getCross_published_journal_name())
+            .name("Cross published journal names")
             .buildSettings();
     private static BatchSettings<Paper,Property> logProperties = new PropertyPrintSetting<Paper>(x->x.getTitle())
             .name("Title")
             .create(",",x->x.getAuthor_display())
             .name("Authors")
             .buildSettings();
+    private static Function<Property,String> escapeCsv(Function<Property,String> f)
+    {
+        return x-> StringEscapeUtils.escapeCsv(f.apply(x));
+    }
 }
