@@ -1,0 +1,44 @@
+Id
+;Title
+;Authors
+;Date
+;Article type
+;Link
+;Journal key
+;Total count
+Title:null
+     :     Authors:Jeffrey Chu,Saralees Nadarajah,Stephen Chan
+Title:null
+     :     Authors:Luisanna Cocco,Michele Marchesi
+Title:null
+     :     Authors:Thomas Kim
+Title:null
+     :     Authors:Jonathan Donier,Jean-Philippe Bouchaud
+Title:null
+     :     Authors:Ladislav Kristoufek
+Title:null
+     :     Authors:The PLOS ONE Staff 
+Title:null
+     :     Authors:Dániel Kondor,Márton Pósfai,István Csabai,Gábor Vattay
+Title:null
+     :     Authors:Jesse Yli-Huumo,Deokyoon Ko,Sujin Choi,Sooyong Park,Kari Smolander
+Title:null
+     :     Authors:Young Bin Kim,Jun Gi Kim,Wook Kim,Jae Ho Im,Tae Hyeong Kim,Shin Jin Kang,Chang Hun Kim
+Title:null
+     :     Authors:Young Bin Kim,Sang Hyeok Lee,Shin Jin Kang,Myung Jin Choi,Jung Lee,Chang Hun Kim
+Title:null
+     :     Authors:Raphael H. Heiberger
+Title:null
+     :     Authors:Victor Naroditskiy,Iyad Rahwan,Manuel Cebrian,Nicholas R. Jennings
+Title:null
+     :     Authors:Shota Saito,Yoshito Hirata,Kazutoshi Sasahara,Hideyuki Suzuki
+Title:null
+     :     Authors:Xianlei Dong,Johan Bollen
+Title:null
+     :     Authors:Adrian Letchford,Tobias Preis,Helen Susannah Moat
+Title:null
+     :     Authors:Jaroslav Pavlicek,Ladislav Kristoufek
+Title:null
+     :     Authors:Dean Fantazzini
+Title:null
+     :     Authors:Ahmad Karim,Rosli Salleh,Muhammad Khurram Khan
